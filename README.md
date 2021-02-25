@@ -52,3 +52,30 @@ Response :
     "transactionFee": 0
 }
 ```
+
+## Update Bank
+
+Request :
+- Method : PATH
+- Endpoint : `/api/banks`
+- Header :
+    - Content-Type: application/json
+- Body :
+
+```json 
+{
+    "accountNumber": "acc123",
+    "trust": 17.0,
+    "transactionFee": 0
+}
+```
+
+Response :
+
+```json 
+{
+    "accountNumber": "acc123",
+    "trust": 17.0,
+    "transactionFee": 0
+}
+```
