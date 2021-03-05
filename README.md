@@ -1,4 +1,12 @@
-# api-test-spring-kotlin
+### MockBankDataSource
+` 
+    val banks = listOf(
+            Bank("1234", 3.14, 17),
+            Bank("1010", 17.0, 0),
+            Bank("1234", 0.0, 100)
+    )
+`
+
 
 # API Spec
 
