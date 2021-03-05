@@ -1,5 +1,6 @@
-package net.learn.restapi.datasource
+package net.learn.restapi.datasource.mock
 
+import net.learn.restapi.datasource.BankDataSource
 import net.learn.restapi.model.Bank
 import org.springframework.stereotype.Repository
 

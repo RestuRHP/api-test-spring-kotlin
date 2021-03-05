@@ -1,4 +1,4 @@
-package net.learn.restapi.datasource
+package net.learn.restapi.datasource.mock
 
 import org.assertj.core.api.Assertions.assertThat
 import org.junit.jupiter.api.Test
