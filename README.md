@@ -13,15 +13,8 @@ Response :
 
 ```json 
 {
-    "code" : "number",
-    "status" : "string",
-    "data" : {
-         "id" : "string, unique",
-         "name" : "string",
-         "price" : "long",
-         "quantity" : "integer",
-         "createdAt" : "date",
-         "updatedAt" : "date"
-     }
+    "accountNumber": "1010",
+    "trust": 17.0,
+    "transactionFee": 0
 }
 ```
