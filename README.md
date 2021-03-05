@@ -56,7 +56,7 @@ Response :
 ## Update Bank
 
 Request :
-- Method : PATH
+- Method : PATCH
 - Endpoint : `/api/banks`
 - Header :
     - Content-Type: application/json
@@ -78,4 +78,18 @@ Response :
     "trust": 17.0,
     "transactionFee": 0
 }
+```
+
+## Delete Product
+
+Request :
+- Method : DELETE
+- Endpoint : `/api/banks/{accountNumber}`
+- Header :
+    - Accept: application/json
+
+Response :
+
+```json 
+
 ```
